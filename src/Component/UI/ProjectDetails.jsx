@@ -8,7 +8,8 @@ function ProjectDetails() {
 
   const portfolioData = [
     {
-      img: "1",
+      id: "1",
+      img: "https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/portfolio/1.png",
       title: "Interior WebSite",
       description: [
         "Designed, developed, and deployed a website for Specterior Design – one of the leading Interior Designs in Pune.",
@@ -22,7 +23,8 @@ function ProjectDetails() {
       link: "https://rakesh-choudhary175.github.io/Specterior-Designs-2.github.io/",
     },
     {
-      img: "2",
+      id: "2",
+      img: "https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/portfolio/2.png",
       title: "GyaanDock",
       description: [
         "Designed, developed, and deployed a full-stack online coding problem solving website.",
@@ -40,7 +42,8 @@ function ProjectDetails() {
       link: "https://github.com/Rakesh-Choudhary175/GyaanDockBackend",
     },
     {
-      img: "3",
+      id: "3",
+      img: "https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/portfolio/3.png",
       title: "Natours a Tourism Website",
       description: [
         "Designed, developed, and deployed a full-stack online Tour Booking website.",
@@ -57,7 +60,8 @@ function ProjectDetails() {
       link: "https://github.com/Rakesh-Choudhary175/Natours",
     },
     {
-      img: "4",
+      id: "4",
+      img: "https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/portfolio/4.png",
       title: "Forkify Food Recipe Website",
       description: [
         "Using 3rd Party API to get food recipe data all render it on website.",
@@ -72,7 +76,8 @@ function ProjectDetails() {
       link: "https://github.com/Rakesh-Choudhary175/forkify",
     },
     {
-      img: "5",
+      id: "5",
+      img: "https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/portfolio/5.png",
       title: "Bankist Banking Website",
       description: [
         "Used Javascript to manipulate data of the user bank account",
@@ -86,7 +91,8 @@ function ProjectDetails() {
       link: "https://rakesh-choudhary175.github.io/bankist/",
     },
     {
-      img: "6",
+      id: "6",
+      img: "https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/portfolio/6.png",
       title: "Dice Game WebSite",
       description: [
         "Implemented a user interactive game of dice for 2 users to play at a time.",
@@ -119,10 +125,7 @@ function ProjectDetails() {
               <IoClose />
             </button>
             <div className="pp-thumbnail">
-              <img
-                src={`/src/assets/img/portfolio/${img}.png`}
-                alt="pp-thumbnail"
-              />
+              <img src={img} alt="pp-thumbnail" />
             </div>
             <h3>{title}</h3>
           </div>
