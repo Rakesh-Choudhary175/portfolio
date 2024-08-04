@@ -27,7 +27,10 @@ function HomePage() {
           </div>
           <div className="home-img">
             <div className="img-box">
-              <img src="/src/assets/img/profile-img.png" alt="profile-img" />
+              <img
+                src="https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/profile-img.png"
+                alt="profile-img"
+              />
             </div>
           </div>
         </div>

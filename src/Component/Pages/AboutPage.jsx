@@ -40,7 +40,10 @@ function AboutPage() {
         <div className="row">
           <div className="about-img">
             <div className="img-box">
-              <img src="/src/assets/img/about-profile.png" alt="about img" />
+              <img
+                src="https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/about-profile.png"
+                alt="about img"
+              />
             </div>
           </div>
           <div className="about-text">
