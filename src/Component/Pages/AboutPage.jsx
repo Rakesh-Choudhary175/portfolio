@@ -4,6 +4,7 @@ import Experience from "../UI/Experience";
 import { NavLink } from "react-router-dom";
 import { Context } from "../../Context";
 import img from "../../assets/img/about-profile.png";
+import cv from "../../../cv.pdf";
 
 function AboutPage() {
   const [experience, setExperience] = useState(false);
@@ -83,7 +84,7 @@ function AboutPage() {
             {experience && <Experience />}
 
             {/* CV add karan hai path mah  */}
-            <a href="cv.pdf" target="_blank" className="btn">
+            <a href={cv} target="_blank" className="btn">
               download CV
             </a>
             <NavLink to="/contact" className="btn link-item">
