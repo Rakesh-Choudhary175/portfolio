@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { Context } from "../../Context";
+import img from "../../assets/img/profile-img.png";
 
 function HomePage() {
   const { navBar } = useContext(Context);
@@ -27,10 +28,7 @@ function HomePage() {
           </div>
           <div className="home-img">
             <div className="img-box">
-              <img
-                src="https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/profile-img.png"
-                alt="profile-img"
-              />
+              <img src={img} alt="profile-img" />
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@ import Education from "../UI/Education";
 import Experience from "../UI/Experience";
 import { NavLink } from "react-router-dom";
 import { Context } from "../../Context";
+import img from "../../assets/img/about-profile.png";
 
 function AboutPage() {
   const [experience, setExperience] = useState(false);
@@ -40,10 +41,7 @@ function AboutPage() {
         <div className="row">
           <div className="about-img">
             <div className="img-box">
-              <img
-                src="https://tmbbmlcivhadtubcunbt.supabase.co/storage/v1/object/public/Portfolio_images/img/about-profile.png"
-                alt="about img"
-              />
+              <img src={img} alt="about img" />
             </div>
           </div>
           <div className="about-text">

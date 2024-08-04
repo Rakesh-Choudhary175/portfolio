@@ -1,0 +1,126 @@
+import img1 from "../../assets/img/portfolio/1.png";
+import img2 from "../../assets/img/portfolio/2.png";
+import img3 from "../../assets/img/portfolio/3.png";
+import img4 from "../../assets/img/portfolio/4.png";
+import img5 from "../../assets/img/portfolio/5.png";
+import img6 from "../../assets/img/portfolio/6.png";
+import img7 from "../../assets/img/portfolio/7.png";
+
+export const portfolioData = [
+  {
+    id: "1",
+    img: img1,
+    title: "Room Booking Website",
+    description: [
+      "A web appliction for a hotel room booking staff to manage all booking guests check-in,check-out,money paid status.",
+      "Can change pricing/update pricing of the room.",
+      "A dashboard which provide deatil insides of all data in the form of piecharts and graphs.",
+      "Adding new room with new data.",
+      "Can delete any booking.",
+    ],
+    created: "2 August 2024",
+    techUsed: "React,SupaBase,React-Router,React-query,React-Icons",
+    role: "Fullstack",
+    link: "https://room-booking-pi.vercel.app/",
+  },
+  {
+    id: "2",
+    img: img2,
+    title: "Interior WebSite",
+    description: [
+      "Designed, developed, and deployed a website for Specterior Design – one of the leading Interior Designs in Pune.",
+      "Used of SCSS/Sass to streamline CSS development and improve code maintainability.",
+      "Developed contact form which will send message direct to Admin's WHATSAPP.",
+      "Implemented Video Background for Home page.",
+    ],
+    created: "15 July 2021",
+    techUsed: "HTML, CSS, Javascript",
+    role: "Frontend",
+    link: "https://rakesh-choudhary175.github.io/Specterior-Designs-2.github.io/",
+  },
+  {
+    id: "3",
+    img: img3,
+    title: "GyaanDock",
+    description: [
+      "Designed, developed, and deployed a full-stack online coding problem solving website.",
+      "Used ReactJS & Bootstrap for FrontEnd of the website.",
+      "Used NodeJS & MongoDB for BackEnd.",
+      "Implemented Authentication, Authorization, JWT.",
+      "Admin can add new questions, delete, update any question.",
+      "Implemented Sorting, Filtering & Pagination on questions.",
+      "After solving any question users score will get updated.",
+      "Used Judge API for code compilation and for getting codeoutput.",
+    ],
+    created: "4 Dec 2023",
+    techUsed: "ReatJS, Bootstrap, NodeJS, Express, MongoDB, MVC",
+    role: "FullStack ",
+    link: "https://github.com/Rakesh-Choudhary175/GyaanDockBackend",
+  },
+  {
+    id: "4",
+    img: img4,
+    title: "Natours a Tourism Website",
+    description: [
+      "Designed, developed, and deployed a full-stack online Tour Booking website.",
+      "Used Pug files & CSS for FrontEnd of the website.",
+      "Used NodeJS & MongoDB for BackEnd.",
+      "Implemented Authentication, Authorization, JWT.",
+      "Admin can add new Tours, delete, update any Tour data.",
+      "Implemented Profile Image uploads and and setting profile photos.",
+      "Implemented Payment option to book tours.",
+    ],
+    created: "15 May 2023",
+    techUsed: "NodeJS, Express, MongoDB, MVC, Pug, CSS",
+    role: "FullStack ",
+    link: "https://github.com/Rakesh-Choudhary175/Natours",
+  },
+  {
+    id: "5",
+    img: img5,
+    title: "Forkify Food Recipe Website",
+    description: [
+      "Using 3rd Party API to get food recipe data all render it on website.",
+      "Dividing results and showing it no multiple pages based on no of response",
+      "Implemented bookmark feature in which user can save its recipe on brouser memory and can check it when ever required",
+      "Changing quantity of ingredients based on number of servings",
+      "Smooth and responsive user interface",
+    ],
+    created: "12 Feb 2024",
+    techUsed: "HTML, CSS, Javascript ",
+    role: "frontend ",
+    link: "https://github.com/Rakesh-Choudhary175/forkify",
+  },
+  {
+    id: "6",
+    img: img6,
+    title: "Bankist Banking Website",
+    description: [
+      "Used Javascript to manipulate data of the user bank account",
+      "Add and remove money and update it on website in real time",
+      "Implemented Loan feature based on 10% of user maxminum deposite",
+      "User can Send money to another User based on Id and money will be Updated on boths user account",
+    ],
+    created: "25 Dec 2023",
+    techUsed: "HTML, CSS, Javascript",
+    role: "frontend ",
+    link: "https://rakesh-choudhary175.github.io/bankist/",
+  },
+  {
+    id: "7",
+    img: img7,
+    title: "Dice Game WebSite",
+    description: [
+      "Implemented a user interactive game of dice for 2 users to play at a time.",
+      " A dice is role on click and a random no between 1 to 6 is generated and dice is formed.",
+      "As user keep on rolling dice his temporary score is incraesed and he can hold that score anytime and player is been switched.",
+      "If user dice get 1 on it's dice player automaticaly get switched and all temporary score get zero.",
+      "Player you score 20 frist win the game.",
+      "Players can restart the game by using restart button.",
+    ],
+    created: "4 Dec 2020",
+    techUsed: "HTML, CSS, Javascript",
+    role: "frontend ",
+    link: "https://rakesh-choudhary175.github.io/DiceGame/",
+  },
+];
