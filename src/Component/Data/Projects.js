@@ -17,6 +17,7 @@ export const portfolioData = [
       "A dashboard which provide deatil insides of all data in the form of piecharts and graphs.",
       "Adding new room with new data.",
       "Can delete any booking.",
+      "Try it with this login credentials \n Email:-public@mail.com \n Password:-password",
     ],
     created: "2 August 2024",
     techUsed: "React,SupaBase,React-Router,React-query,React-Icons",
