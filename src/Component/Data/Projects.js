@@ -56,7 +56,7 @@ export const portfolioData = [
     created: "4 Dec 2023",
     techUsed: "ReatJS, Bootstrap, NodeJS, Express, MongoDB, MVC",
     role: "FullStack ",
-    link: "https://github.com/Rakesh-Choudhary175/GyaanDockBackend",
+    link: "https://gyaan-dock-front-end.vercel.app",
   },
   {
     id: "4",
