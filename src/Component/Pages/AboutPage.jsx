@@ -19,7 +19,7 @@ function AboutPage() {
     "c++",
     "NextJS",
     "ReactJS",
-    "React Native"
+    "React Native",
     "NodeJS",
     "Tailwind CSS",
     "Docker",
