@@ -1,4 +1,5 @@
 import img1 from "../../assets/img/portfolio/1.png";
+import img11 from "../../assets/img/portfolio/11.png";
 import img2 from "../../assets/img/portfolio/2.png";
 import img3 from "../../assets/img/portfolio/3.png";
 import img4 from "../../assets/img/portfolio/4.png";
@@ -10,7 +11,7 @@ export const portfolioData = [
   {
     id: "1",
     img: img1,
-    title: "Room Booking Website",
+    title: "Room management Website",
     description: [
       "A web application for a hotel room booking staff to manage all booking guests' check-in,check-out, money-paid status.",
       "Can change pricing/update pricing of the room.",
@@ -20,9 +21,26 @@ export const portfolioData = [
       "Try it with these login credentials Email:-public@mail.com Password:-password",
     ],
     created: "2 August 2024",
-    techUsed: "React,SupaBase,React-Router,React-query,React-Icons",
+    techUsed: "React, SupaBase, React-Router, React-query, React-Icons",
     role: "Fullstack",
     link: "https://room-booking-pi.vercel.app/",
+  },
+  {
+    id: "11",
+    img: img11,
+    title: "Room Booking Website",
+    description: [
+      "A web application for users to book there favourite cabin with numbers of days and numbers of peoples.",
+      "Google based signin to the application.",
+      "Locking of dates which have already been booked.",
+      "Users can Update or delete there booking before the starting date.",
+      "Can change user personal details.",
+      "Give a try by loging in with your google account",
+    ],
+    created: "2 August 2024",
+    techUsed: "NextJS, SupaBase, Next-Auth, Date-Fns, React-Datepicker",
+    role: "Fullstack",
+    link: "https://the-wild-oasis-three-wheat.vercel.app/",
   },
   {
     id: "2",
