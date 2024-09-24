@@ -37,7 +37,7 @@ export const portfolioData = [
       "Can change user personal details.",
       "Give a try by loging in with your google account",
     ],
-    created: "2 August 2024",
+    created: "5 September 2024",
     techUsed: "NextJS, SupaBase, Next-Auth, Date-Fns, React-Datepicker",
     role: "Fullstack",
     link: "https://the-wild-oasis-three-wheat.vercel.app/",

@@ -8,7 +8,7 @@ function ProjectDetails() {
   const navigate = useNavigate();
 
   const { img, title, description, created, techUsed, role, link } =
-    portfolioData.at(id - 1);
+    portfolioData.filter((el) => el.id === id)[0];
 
   return (
     <div className="portfolio-popup open">
