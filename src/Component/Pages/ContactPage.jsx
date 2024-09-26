@@ -1,5 +1,11 @@
 import { useContext, useState } from "react";
-import { SiGithub, SiLeetcode, SiLinkedin, SiX } from "react-icons/si";
+import {
+  SiGithub,
+  SiInstagram,
+  SiLeetcode,
+  SiLinkedin,
+  SiX,
+} from "react-icons/si";
 import { Context } from "../../Context";
 
 function ContactPage() {
@@ -24,6 +30,10 @@ function ContactPage() {
     {
       icon: <SiGithub />,
       link: "https://github.com/Rakesh-Choudhary175",
+    },
+    {
+      icon: <SiInstagram />,
+      link: "https://www.instagram.com/rakesh_choudhary_._/",
     },
   ];
 
