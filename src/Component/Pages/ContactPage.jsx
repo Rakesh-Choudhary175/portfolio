@@ -4,6 +4,7 @@ import { Context } from "../../Context";
 
 function ContactPage() {
   const [formFilled, setFormFilled] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const mobile = "7972487464";
   const email = "inqu.rc@gmail.com";
@@ -34,6 +35,7 @@ function ContactPage() {
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
+    setLoading(true);
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -43,6 +45,7 @@ function ContactPage() {
       },
       body: json,
     }).then((res) => res.json());
+    setLoading(false);
 
     if (res.success) {
       setFormFilled(true);
@@ -106,9 +109,13 @@ function ContactPage() {
                     ></textarea>
                   </div>
                   <div className="submit-btn">
-                    <button type="submit" className="btn">
-                      send message
-                    </button>
+                    {loading ? (
+                      <span className="loader"></span>
+                    ) : (
+                      <button type="submit" className="btn">
+                        send message
+                      </button>
+                    )}
                   </div>
                 </div>
               </form>
