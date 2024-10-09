@@ -1,6 +1,12 @@
 function Education() {
   const educationData = [
     {
+      year: "2024 - Present",
+      degree: "Master of technology",
+      university: "COEP Technological University",
+      collegeName: "College of Enginnering Pune",
+    },
+    {
       year: "2019 - 2023",
       degree: "bechelor of technology",
       university: "SPPU university",
