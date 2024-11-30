@@ -5,6 +5,7 @@ import {
   SiLeetcode,
   SiLinkedin,
   SiX,
+  SiYoutube,
 } from "react-icons/si";
 import { Context } from "../../Context";
 
@@ -34,6 +35,10 @@ function ContactPage() {
     {
       icon: <SiInstagram />,
       link: "https://www.instagram.com/rakesh_choudhary_._/",
+    },
+    {
+      icon: <SiYoutube />,
+      link: "https://www.youtube.com/@rakeshchoudhary9755",
     },
   ];
 
