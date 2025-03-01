@@ -7,6 +7,7 @@ import PortfolioPage from "./Component/Pages/PortfolioPage";
 import ContactPage from "./Component/Pages/ContactPage";
 import AppLayout from "./Component/UI/AppLayout";
 import ProjectDetails from "./Component/UI/ProjectDetails";
+import ReceipPrivacyPolicy from "./Component/Pages/ReceipPrivacyPolicy";
 
 function App() {
   const [hide, setHide] = useState(false);
@@ -29,6 +30,10 @@ function App() {
               <Route path="about" element={<AboutPage />} />
               <Route path="protfolio" element={<PortfolioPage />} />
               <Route path="contact" element={<ContactPage />} />
+              <Route
+                path="ReceipAppPrivacyPolicy"
+                element={<ReceipPrivacyPolicy />}
+              />
             </Route>
             <Route path="protfolio/:id" element={<ProjectDetails />} />
           </Routes>
