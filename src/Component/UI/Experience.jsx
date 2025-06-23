@@ -1,6 +1,11 @@
 function Experience() {
   const experienceData = [
     {
+      projectType: "Open Source Engineer",
+      name: "Cohesity",
+      dis: ["June 2025 - Present"],
+    },
+    {
       projectType: "Freelancing Project",
       name: "WebSite Developed for a Interior Design Company",
       dis: [
