@@ -8,6 +8,7 @@ import ContactPage from "./Component/Pages/ContactPage";
 import AppLayout from "./Component/UI/AppLayout";
 import ProjectDetails from "./Component/UI/ProjectDetails";
 import ReceipPrivacyPolicy from "./Component/Pages/ReceipPrivacyPolicy";
+import Redirect from "./Component/Redirect";
 
 function App() {
   const [hide, setHide] = useState(false);
@@ -36,6 +37,7 @@ function App() {
               />
             </Route>
             <Route path="protfolio/:id" element={<ProjectDetails />} />
+            <Route path=":platform" element={<Redirect />} />
           </Routes>
         </BrowserRouter>
       )}
