@@ -1,3 +1,5 @@
+import imgSrc from "../../assets/img/cohesity-logo-black-green.svg";
+
 function Experience() {
   const experienceData = [
     {
@@ -71,14 +73,10 @@ function Experience() {
           <div className="timeline-item" key={i}>
             <span className="date">{exp.projectType}</span>
             <h4>
-              {exp.name !== "Cohesity" && (
-                <>
-                  {exp.name}{" "}
-                </>
-              )}
+              {exp.name !== "Cohesity" && <>{exp.name} </>}
               {exp.image && (
                 <img
-                  src={exp.image}
+                  src={imgSrc}
                   alt={exp.name + " logo"}
                   style={{ maxWidth: "150px", margin: "10px 0" }}
                 />
