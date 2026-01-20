@@ -55,7 +55,7 @@ export const portfolioData = [
     created: "15 July 2021",
     techUsed: "HTML, CSS, Javascript",
     role: "Frontend",
-    link: "https://rakesh-choudhary175.github.io/Specterior-Designs-2.github.io/",
+    link: "https://www.specteriordesign.com/",
   },
   {
     id: "3",

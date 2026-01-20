@@ -7,7 +7,7 @@ import img from "../../assets/img/about-profile.png";
 import cv from "../../../cv.pdf";
 
 function AboutPage() {
-  const [experience, setExperience] = useState(false);
+  const [experience, setExperience] = useState(true);
 
   const discription =
     "As a dedicated software engineer, I thrive on the dynamic challenges of crafting efficient, scalable, and user-centric solutions. With a passion for technology and a keen eye for detail, I bring years of experience in designing and implementing robust software systems. My expertise spans across full-stack development, where I adeptly navigate through frontend frameworks, backend technologies, and database management systems to deliver seamless experiences. I am committed to staying abreast of emerging technologies, continuously honing my skills to tackle evolving industry demands. Whether collaborating in a team environment or leading projects independently, my goal remains the same: to innovate, streamline processes, and exceed expectations in every endeavor. Let's build the future together, one line of code at a time.";
