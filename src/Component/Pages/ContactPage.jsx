@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import {
+  SiDiscord,
   SiGithub,
   SiInstagram,
   SiLeetcode,
@@ -39,6 +40,10 @@ function ContactPage() {
     {
       icon: <SiYoutube />,
       link: "https://www.youtube.com/@rakeshchoudhary9755",
+    },
+    {
+      icon: <SiDiscord />,
+      link : "https://discord.gg/hzMGrQqJ5f",
     },
   ];
 

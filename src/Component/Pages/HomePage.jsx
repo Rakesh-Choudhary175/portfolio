@@ -8,9 +8,8 @@ function HomePage() {
 
   return (
     <section
-      className={`home-section align-items-center activeOn ${
-        navBar ? "fade-out" : ""
-      }`}
+      className={`home-section align-items-center activeOn ${navBar ? "fade-out" : ""
+        }`}
       id="home"
     >
       <div className="container">
@@ -24,6 +23,9 @@ function HomePage() {
             </NavLink>
             <NavLink to="/protfolio" className="btn link-item">
               Portfolio
+            </NavLink>
+            <NavLink to="/hackathon" className="btn link-item">
+              Hackathon
             </NavLink>
           </div>
           <div className="home-img">

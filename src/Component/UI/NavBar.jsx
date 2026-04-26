@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 function NavBar({ toggleNavBar }) {
-  const data = ["home", "about", "protfolio", "contact"];
+  const data = ["home", "about", "protfolio", "hackathon", "contact"];
 
   return (
     <nav className="nav">
