@@ -4,12 +4,13 @@ import Loader from "./Loader";
 
 // Social media and external links configuration
 const REDIRECT_LINKS = {
-  instagram: "https://www.instagram.com/rakesh_choudhary_._/", // Replace with your Instagram username
-  github: "https://github.com/Rakesh-Choudhary175", // Replace with your GitHub username
-  linkedin: "https://www.linkedin.com/in/rakesh-choudhary-146282200/", // Replace with your LinkedIn username
-  twitter: "https://x.com/Rakesh_Dev_", // Replace with your Twitter username
-  youtube: "https://www.youtube.com/@rakeshchoudhary9755", // Replace with your YouTube channel
+  instagram: "https://www.instagram.com/rakesh_choudhary_._/",
+  github: "https://github.com/Rakesh-Choudhary175",
+  linkedin: "https://www.linkedin.com/in/rakesh-choudhary-146282200/",
+  twitter: "https://x.com/Rakesh_Dev_",
+  youtube: "https://www.youtube.com/@rakeshchoudhary9755",
   leetcode: "https://leetcode.com/Rakesh-dev/",
+  insta: "https://www.instagram.com/rakesh_choudhary_._/",
 };
 
 function Redirect() {
@@ -17,7 +18,7 @@ function Redirect() {
 
   useEffect(() => {
     const url = REDIRECT_LINKS[platform?.toLowerCase()];
-    
+
     if (url) {
       window.location.href = url;
     } else {
@@ -28,9 +29,9 @@ function Redirect() {
   }, [platform]);
 
 
-  return <Loader/>
+  return <Loader />
 
- 
+
 }
 
 export default Redirect;
