@@ -3,10 +3,18 @@ import imgSrc from "../../assets/img/cohesity-logo-black-green.svg";
 function Experience() {
   const experienceData = [
     {
-      projectType: "Open Source Engineer",
+      projectType: "SDE-I",
       name: "Cohesity",
       dis: [
-        "June 2025 - Present",
+        "June 2026 - Present",
+      ],
+      image: "src/assets/img/cohesity-logo-black-green.svg",
+    },
+    {
+      projectType: "Engineer Intern",
+      name: "Cohesity",
+      dis: [
+        "June 2025 - June 2026",
         "Gained hands-on experience with Black Duck for open-source software (OSS) compliance analysis, including license identification and risk assessment.",
         "Developed automation scripts to create, update, and delete Jira tickets, streamlining issue tracking and compliance workflows.",
         "Designed a graph database schema to efficiently store and manage OSS metadata, enabling better dependency and license relationship analysis.",
